@@ -8,8 +8,10 @@ h1{
     font-weight: 700;
 }
 .img1{
-    width: 568px;
-    height: 446px;
+    max-width: 568px;
+    max-height: 446px;
+    width: 100%;
+    height: auto;
 }
 .container1{
     display: inline-block;
@@ -85,6 +87,8 @@ h1{
 .img2{
     margin-top: 24px;
     margin-bottom: 24px;
+    width: 100%;
+    height: auto;
     max-width: 200px;
     max-height: 200px;
 }
@@ -111,6 +115,8 @@ h1{
 }
 .img3{
     margin-top: 20px;
+    width: 100%;
+    height: auto;
     max-width: 298.012px;
     max-height: 396px;
 }
@@ -122,7 +128,6 @@ h1{
     line-height: 32px;
     font-size: 24px;
     font-weight: 400;
-    font-style: solid;
 }
 
 ul li {
